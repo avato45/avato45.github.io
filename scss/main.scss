@@ -1,0 +1,21 @@
+@import "./partials/extends";
+@import "./partials/mixin";
+@import "./partials/maps";
+@import "./partials/general";
+@import "./partials/content";
+@import "./partials/productos";
+@import "./partials/formulario";
+@import "./partials/galeria";
+@import "./partials/blogs";
+@import "./partials/textos";
+@import "./partials/disponibles";
+
+  footer {
+    font-size: 15px;
+    word-spacing: normal;
+    border-top: 1px solid rgb(8, 8, 8);
+  }
+  
+  .clearfix {
+    clear: both;
+  }

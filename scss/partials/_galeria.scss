@@ -1,0 +1,20 @@
+.fotos {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    flex-wrap: wrap;
+    margin: 15px;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    img{
+        width: 250px;
+        height: 250px;
+        margin: 0px;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+  }

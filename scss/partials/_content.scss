@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    padding: 25px;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .article-1 {
+    @include articulos;
+  }
+  
+  .article-2 {
+    @include articulos;
+     font-size: 18px;
+     display: grid;
+     grid-template-columns: auto auto;
+     column-gap: normal;
+   }
+  
+  .article-3 {
+    border: 1px solid rgb(8, 8, 8);
+    @include articulos;
+  }
+  
+  .carousel-item {
+    background-color: rgb(96, 240, 240);
+    position: relative;
+    inset: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    width: auto;
+    height: 250px;
+    max-width: 300px;
+    min-height: 300px;
+    margin: auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+  }

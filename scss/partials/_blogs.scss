@@ -1,0 +1,28 @@
+#blogs {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .card-1{
+        @extend %cardBlog;
+        .card-text{
+            color: rgb(8, 8, 8);
+            text-decoration: none;
+            &:hover{
+                color: map-get($estilos, colorFondo);
+            }
+        }
+}
+    .card-2{
+        @extend %cardBlog;
+
+        .card-text{
+            color: rgb(8, 8, 8);
+            text-decoration: none;
+            &:hover{
+                color: map-get($estilos, colorFondo);
+            }
+    }
+}
+  }

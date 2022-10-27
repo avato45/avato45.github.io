@@ -1,0 +1,25 @@
+#contactos {
+    margin-top: 50px;
+    word-spacing: normal;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    font-family: EBGaramond-VariableFont_wght;
+  }
+  
+  .cabecera {
+    font-family: LilyScriptOne-Regular;
+    color: map-get($estilos, colorFondo);
+    padding-bottom: 30px;
+  }
+  
+  .formulario {
+    padding-bottom: 30px;
+    font-family: LilyScriptOne-Regular;
+  }
+  
+  .casa {
+    color: map-get($estilos, colorFondo);
+  }
+  
+  .mapa {
+    padding: 35px;
+  }

@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  @font-face {
+    font-family: LilyScriptOne-Regular;
+    src: url("LilyScriptOne-Regular") format("truetype");
+    font-family: EBGaramond-Italic-VariableFont_wght;
+    src: url("EBGaramond-Italic-VariableFont_wght") format("truetype");
+    font-family: EBGaramond-VariableFont_wght;
+    src: url("EBGaramond-VariableFont_wght") format("truetype");
+    font-family: Karla-Italic-VariableFont_wght;
+    src: url("Karla-Italic-VariableFont_wght") format("truetype");
+  }
+
+  body {
+    background: map-get($estilos, colorFondo);
+    font-family: EBGaramond-Italic-VariableFont_wght;
+  }
+  
+  .navegacion ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    a{
+        color: rgb(8, 8, 8);
+        text-decoration: none;
+        &:hover{
+            color: map-get($estilos, colorFondo);
+        }
+    }
+  }
+  
+  #container {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    background-color: map-get($estilos, colorPagina);
+  }
+  
+  img {
+    width: auto;
+    height: auto;
+  }

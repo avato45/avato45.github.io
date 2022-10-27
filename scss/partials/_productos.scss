@@ -1,0 +1,63 @@
+.productos {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: normal;
+    row-gap: 10px;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+    producto{
+        display: flex;
+        width: 250px;
+        height: 250px;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        margin: auto;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+    }
+  }
+  
+  .disponibles {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  aside {
+    display: flex;
+    width: 20%;
+    float: right;
+    position: relative;
+    right: 0%;
+    top: -843px;
+
+    .buscador{
+      max-width: 30px;
+      max-height: 50px;
+      width: 30px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .productos {
+      width: 80%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      padding: 20px;
+      padding-top: 60px;
+    }
+    aside {
+      float: top;
+      position: relative;
+      top: -2550px;
+      right: 250px;
+    }
+  }
